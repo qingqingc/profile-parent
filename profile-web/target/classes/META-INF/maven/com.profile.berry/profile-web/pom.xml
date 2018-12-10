@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.profile.berry</groupId>
+    <artifactId>profile-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>profile-web</artifactId>
+  <dependencies>
+      <dependency>
+        <groupId>com.profile.berry</groupId>  <!--自定义-->
+        <artifactId>profile-common</artifactId>    <!--自定义-->
+        <version>0.0.1-SNAPSHOT</version> <!--自定义-->
+    </dependency>
+    <dependency>
+        <groupId>com.profile.berry</groupId>  <!--自定义-->
+        <artifactId>profile-service</artifactId>    <!--自定义-->
+        <version>0.0.1-SNAPSHOT</version> <!--自定义-->
+    </dependency>
+  </dependencies>
+</project>
