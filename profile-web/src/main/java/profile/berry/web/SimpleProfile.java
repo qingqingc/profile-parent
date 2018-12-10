@@ -9,6 +9,7 @@ public class SimpleProfile {
 		ProfileService s = new ProfileService();
 		commonEntity entity = s.doService();
 		System.out.println(entity.toString());
+		System.out.println("项目clone下来只需要调整jdk版本就可以跑了。");
 	}
 
 }
